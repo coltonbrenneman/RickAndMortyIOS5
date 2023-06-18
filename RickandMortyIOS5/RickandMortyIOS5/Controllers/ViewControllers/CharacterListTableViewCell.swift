@@ -10,11 +10,8 @@ import UIKit
 class CharacterListTableViewCell: UITableViewCell {
 
     // MARK: - Outlets
-    
     @IBOutlet weak var characterNameLabel: UILabel!
-    
     @IBOutlet weak var characterIDLabel: UILabel!
-    
     @IBOutlet weak var characterImageView: UIImageView!
     
 } //End of class

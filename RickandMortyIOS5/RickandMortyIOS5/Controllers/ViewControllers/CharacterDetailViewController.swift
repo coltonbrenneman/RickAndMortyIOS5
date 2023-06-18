@@ -10,9 +10,7 @@ import UIKit
 class CharacterDetailViewController: UIViewController {
 
     // MARK: - Outlets
-    
     @IBOutlet weak var characterSearchBar: UISearchBar!
-    
     @IBOutlet weak var characterNameTableView: UITableView!
     
 } //End of class

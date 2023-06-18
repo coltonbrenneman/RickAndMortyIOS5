@@ -14,6 +14,8 @@
 		44BC78F82A3D79B300C39FF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BC78F62A3D79B300C39FF4 /* LaunchScreen.storyboard */; };
 		44BC79042A3D7CC100C39FF4 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BC79032A3D7CC100C39FF4 /* CharacterDetailViewController.swift */; };
 		44BC79072A3D7CD700C39FF4 /* CharacterListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BC79062A3D7CD700C39FF4 /* CharacterListTableViewCell.swift */; };
+		44BC790A2A3D7E8500C39FF4 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BC79092A3D7E8500C39FF4 /* Character.swift */; };
+		44BC79392A3ECC4600C39FF4 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BC79382A3ECC4600C39FF4 /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		44BC78F92A3D79B300C39FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44BC79032A3D7CC100C39FF4 /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
 		44BC79062A3D7CD700C39FF4 /* CharacterListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListTableViewCell.swift; sourceTree = "<group>"; };
+		44BC79092A3D7E8500C39FF4 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		44BC79382A3ECC4600C39FF4 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		44BC78EA2A3D79B000C39FF4 /* RickandMortyIOS5 */ = {
 			isa = PBXGroup;
 			children = (
+				44BC79082A3D7E7A00C39FF4 /* Models */,
 				44BC79012A3D7CA500C39FF4 /* Controllers */,
 				44BC79002A3D79DD00C39FF4 /* Storyboards */,
 				44BC78FF2A3D79CD00C39FF4 /* SupportingFiles */,
@@ -88,6 +93,7 @@
 		44BC79012A3D7CA500C39FF4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				44BC79372A3ECC3200C39FF4 /* ModelControllers */,
 				44BC79022A3D7CA900C39FF4 /* ViewControllers */,
 			);
 			path = Controllers;
@@ -100,6 +106,22 @@
 				44BC79062A3D7CD700C39FF4 /* CharacterListTableViewCell.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		44BC79082A3D7E7A00C39FF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44BC79092A3D7E8500C39FF4 /* Character.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44BC79372A3ECC3200C39FF4 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44BC79382A3ECC4600C39FF4 /* NetworkController.swift */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +197,8 @@
 			files = (
 				44BC78EC2A3D79B000C39FF4 /* AppDelegate.swift in Sources */,
 				44BC79042A3D7CC100C39FF4 /* CharacterDetailViewController.swift in Sources */,
+				44BC79392A3ECC4600C39FF4 /* NetworkController.swift in Sources */,
+				44BC790A2A3D7E8500C39FF4 /* Character.swift in Sources */,
 				44BC79072A3D7CD700C39FF4 /* CharacterListTableViewCell.swift in Sources */,
 				44BC78EE2A3D79B000C39FF4 /* SceneDelegate.swift in Sources */,
 			);
